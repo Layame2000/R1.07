@@ -1,7 +1,7 @@
 import random
-n=random.randint(0, 100)
+n=random.randint(1, 3)
 
-if n<67:
+if n<=2:
     print("Pile !")
 else:
     print("Face !")
